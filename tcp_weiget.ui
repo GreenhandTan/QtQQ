@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Tcp_Weiget</class>
+ <widget class="QWidget" name="Tcp_Weiget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>448</width>
+    <height>483</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>448</width>
+    <height>483</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>448</width>
+    <height>483</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Widget</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">/*background-color: rgb(0, 0, 0);*/</string>
+  </property>
+  <widget class="QTextBrowser" name="msgBrowser">
+   <property name="geometry">
+    <rect>
+     <x>9</x>
+     <y>9</y>
+     <width>431</width>
+     <height>251</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/images/backw.png);</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="msgTxtEdit">
+   <property name="geometry">
+    <rect>
+     <x>9</x>
+     <y>301</y>
+     <width>431</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/images/backw.png);</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="">
+   <property name="geometry">
+    <rect>
+     <x>9</x>
+     <y>272</y>
+     <width>433</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QToolButton" name="boldTBtn">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>...</string>
+      </property>
+      <property name="icon">
+       <iconset resource="myqrc.qrc">
+        <normaloff>:/images/B.png</normaloff>:/images/B.png</iconset>
+      </property>
+      <property name="checkable">
+       <bool>true</bool>
+      </property>
+      <property name="autoRaise">
+       <bool>false</bool>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QToolButton" name="italicTBtn">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>...</string>
+      </property>
+      <property name="icon">
+       <iconset resource="myqrc.qrc">
+        <normaloff>:/images/I.png</normaloff>:/images/I.png</iconset>
+      </property>
+      <property name="checkable">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QToolButton" name="underlineTBtn">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>...</string>
+      </property>
+      <property name="icon">
+       <iconset resource="myqrc.qrc">
+        <normaloff>:/images/U.png</normaloff>:/images/U.png</iconset>
+      </property>
+      <property name="checkable">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QToolButton" name="colorTBtn">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>...</string>
+      </property>
+      <property name="icon">
+       <iconset resource="myqrc.qrc">
+        <normaloff>:/images/C.png</normaloff>:/images/C.png</iconset>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QFontComboBox" name="fontCbx">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QComboBox" name="sizeCbx">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="currentIndex">
+       <number>4</number>
+      </property>
+      <item>
+       <property name="text">
+        <string>8</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>9</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>10</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>11</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>12</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>13</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>14</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>15</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>16</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>17</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>18</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>19</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>20</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>21</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>22</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item>
+     <widget class="QToolButton" name="clearTBtn">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>...</string>
+      </property>
+      <property name="icon">
+       <iconset resource="myqrc.qrc">
+        <normaloff>:/images/E.png</normaloff>:/images/E.png</iconset>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QToolButton" name="saveTBtn">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>...</string>
+      </property>
+      <property name="icon">
+       <iconset resource="myqrc.qrc">
+        <normaloff>:/images/S.png</normaloff>:/images/S.png</iconset>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>450</y>
+     <width>158</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_2">
+    <item>
+     <widget class="QPushButton" name="sendBtn">
+      <property name="styleSheet">
+       <string notr="true">/*background-image: url(:/images/backw.png);*/</string>
+      </property>
+      <property name="text">
+       <string>Send(S)</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="exitBtn">
+      <property name="styleSheet">
+       <string notr="true">/*background-image: url(:/images/backw.png);*/</string>
+      </property>
+      <property name="text">
+       <string>Exit</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="myqrc.qrc"/>
+ </resources>
+ <connections/>
+</ui>

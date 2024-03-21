@@ -1,0 +1,38 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/ico/setting.png</file>
+        <file>images/ico/close.png</file>
+        <file>images/ico/mini.png</file>
+        <file>images/background.png</file>
+        <file>images/ico/login_tray.png</file>
+        <file>images/B.png</file>
+        <file>images/C.png</file>
+        <file>images/E.png</file>
+        <file>images/F.png</file>
+        <file>images/I.png</file>
+        <file>images/U.png</file>
+        <file>images/S.png</file>
+        <file>images/desk.png</file>
+        <file>images/backw.png</file>
+        <file>images/Color.png</file>
+        <file>images/ico/user4.jpeg</file>
+        <file>images/ico/user5.jpeg</file>
+        <file>images/ico/user6.jpeg</file>
+        <file>images/ico/user7.jpeg</file>
+        <file>images/ico/user8.jpeg</file>
+        <file>images/ico/user0.jpeg</file>
+        <file>images/ico/user1.jpeg</file>
+        <file>images/ico/user2.jpeg</file>
+        <file>images/ico/user3.jpeg</file>
+        <file>images/black-ground.jpeg</file>
+        <file>images/O.png</file>
+        <file>images/top_img1.jpg</file>
+        <file>images/top_img2.jpg</file>
+        <file>images/top_img3.jpg</file>
+        <file>images/top_img4.jpg</file>
+        <file>images/top_img5.jpg</file>
+        <file>images/top_img6.jpg</file>
+        <file>sounds/keke.wav</file>
+        <file>sounds/message.wav</file>
+    </qresource>
+</RCC>
